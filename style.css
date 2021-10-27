@@ -1,0 +1,232 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+    :root{
+        --header:#1D0B66;
+        --nav:#7B60EA;
+        --main:#4219E6;
+        --fundo:#362A66;
+        --rodape:#3414B3;
+        --headerfont:'Roboto', sans-serif;
+        --navfont: 'Poppins', sans-serif;
+        }
+
+       *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+       }
+       body{
+        background-color: #ffff;
+        font-family:'Bebas Neue', 'cursive';
+        width: auto;
+        height: auto;
+       }
+       nav{
+        background-color: #bdb5df ;
+       }
+       .nav-link{
+           font-size: 22px;
+           margin-right: 50px;
+       }
+       
+       main{
+        min-width: 300px;
+        max-width: 900px;
+        background-color: rgb(247 236 247);
+        margin: auto;
+        margin-bottom: 30px;
+        padding: 95px 30px 0px 30px;
+        box-shadow: 2px 2px 0px #37363440;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+       }
+       main > article >h1{
+        text-align: center;
+        font-family:'Bebas Neue', 'cursive';
+        color: rgba(0, 0, 0, 0.637);
+        font-size: 2.3em;
+        background: linear-gradient(to right,rgb(77 29 165 / 22%),transparent);
+        text-indent: 8px;
+       }
+       main h2{
+        text-align: center;
+        color: rgba(0, 0, 0, 0.637);
+        font-family:'Bebas Neue', 'cursive';
+        font-size: 2.3em;
+        background-image: linear-gradient(to right, rgba(77, 29, 165, 0.541),transparent);
+        text-indent: 8px;
+       }
+
+       main p{
+        font-family: var(--navfont);
+        margin: 15px 0px;
+        text-align: -webkit-auto;
+        font-size: 1em;
+        text-indent: 1px;
+        line-height: 25px;
+        letter-spacing: 1px;
+            
+       }
+       .subtittle{
+        text-align: center;
+        margin-top: 25px;
+        width: 50%;
+        background-color:rgb(157 27 164 / 0%);
+        border-radius: 20px 20px 20px 20px;
+       }
+       #squad-battles{
+        letter-spacing: 1.5px;
+       }
+       #draft-spac{
+        letter-spacing: 0.4px;
+       }
+       #wl-spac{
+        letter-spacing: 0px;
+       }
+       li{
+        list-style: none;
+       }
+      img{
+        
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        padding: 30px 75px;
+      }
+      .carousel-control-next-icon{
+        background-color: rgba(0, 0, 0, 0.61);
+        margin-left: auto;
+      }
+      .carousel-control-prev-icon{
+        background-color: rgba(0, 0, 0, 0.61);
+        margin-right: auto;
+      }
+     
+     
+      abbr[title] {
+          border-bottom: none !important;
+          cursor: inherit !important;
+          text-decoration: none !important;
+      }
+      
+        .numbertext{
+          text-align: center;
+          margin-top: 10px;
+      }
+      .text{
+          text-align: center;
+          background-color: #9c27b038;
+          width: 50%;
+          margin: -30px auto 26px auto;
+      }
+        
+        .column{
+          float: left;
+          width: 25%;
+          padding: 35px 50px;
+          
+      }
+      .row{
+          margin: 0 -5px;
+      }
+      .row:after{
+          content: "";
+          display: table;
+          clear: both;
+      }
+      
+      @media screen and (min-width:1300px) {
+          .column{
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              width: 80%;
+              padding: 30px 70px;
+          }
+      }
+      @media screen and (max-width:1600px) {
+          .column{
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              width: 100%;
+              padding: 30px 70px;
+          }
+      }
+      @media screen and (max-width:623px) {
+          .column{
+              width: auto;
+              display: block;
+              padding: 0px;
+              margin-top: 30px;
+              margin-bottom: 20px
+              
+          }
+      }
+      .card{
+          border-radius: 10px 10px 10px 10px;
+          box-shadow: 3px 1px 20px 0 rgb(0 0 0 / 20%);
+          padding: 16px;
+          text-align: center;
+          background-color: #f1f1f1;
+      }
+     
+      .card > h3{
+          text-align: center;
+          color: rgb(0 0 0 / 70%);
+          font-family: 'Bebas Neue', 'cursive';
+          font-size: 2em;
+          background-image: linear-gradient(to right, rgb(180 98 195),transparent);
+          text-indent: 8px;
+      }
+
+        .retorna-inicio{
+          text-align: center;
+          font-size: 1.8em;
+          padding-bottom: 15px;
+        }
+     
+       footer{
+        background-color: rgb(175 44 255 / 42%);
+        text-align: center;
+        font-family: var(--navfont);
+        font-size: 25px;
+        color: white;
+       }
+       footer > a {
+        text-decoration: underline;
+        color: white;
+       }
+       @media  screen and (max-width:550px) {
+          body{
+              width: 100%;
+          }
+        .subtittle{
+            width: 85%;
+            font-size: 25px;
+        }
+        section > h2{
+            font-size: 25px;
+        }
+        
+        img{
+            margin-left: -70px;
+            margin-right: auto;
+            width: 153%;
+            padding: 31px 75px;
+               
+           }
+            .w-100 {
+                width: 156% !important;
+            }
+       }
+
+
+      
+      
