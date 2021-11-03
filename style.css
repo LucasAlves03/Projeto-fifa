@@ -203,27 +203,7 @@
         text-decoration: underline;
         color: white;
        }
-       @media  screen and (max-width:500px) {
-          body{
-              width: auto;
-          }
-        .subtittle{
-            width: 85%;
-            font-size: 25px;
-        }
-        section > h2{
-            font-size: 25px;
-        }
-        
-        img{
-            margin-left: -70px;
-            margin-right: auto;
-            width: 153%;
-            padding: 31px 75px;
-               
-           }
-         
-       }
+      
 
 
       
